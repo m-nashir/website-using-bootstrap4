@@ -11,13 +11,28 @@
 }
 .navbar{
     background-color: #FF3CAC;
-background-image: linear-gradient(225deg, #2B86C5 0%, #2B86C5 90%, #2B86C5 100%);
-
-
-
+    background-image: linear-gradient(225deg, #2B86C5 0%, #2B86C5 90%, #2B86C5 100%);
     padding: 0 !important;
 }
-.navbar-brand{
+.navbar .navbar-brand{
     font-weight: 700;
     font-size: 36px;
+    color: rgb(51, 51, 51);
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;   
+}
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+    margin-right: 20px; 
 }
